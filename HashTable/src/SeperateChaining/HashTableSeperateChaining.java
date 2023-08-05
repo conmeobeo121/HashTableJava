@@ -1,4 +1,11 @@
-import java.util.*;
+package SeperateChaining;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.ConcurrentModificationException;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 class Entry<K, V> {
 	int hash;
@@ -250,3 +257,4 @@ public class HashTableSeperateChaining<K, V> implements Iterable<K> {
 		return sb.toString();
 	}
 }
+
